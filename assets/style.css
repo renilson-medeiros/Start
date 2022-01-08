@@ -528,6 +528,12 @@ input:-moz-placeholder, textarea:-moz-placeholder {
     }
 }
 
+@media only screen and (max-width: 425px) {
+    .header {
+        padding: 0 15px;
+    }
+}
+
 @media only screen and (max-width: 375px) {
     .header {
         padding: 0 20px;
