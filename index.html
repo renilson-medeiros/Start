@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Login</title>
+    <title>Start. - Acessar</title>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="assets/style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -21,7 +21,7 @@
                 <a href="" class="navbar-link">Categorias</a>
                 <a href="" class="navbar-link">Business</a>
                 <a href="" class="navbar-link new-link">Ensinar</a>
-                <a href="" class="navbar-link link-off">Sign up</a>
+                <a id="register" class="navbar-link link-off">Sign up</a>
             </nav>
 
             <div class="icons">
@@ -32,7 +32,7 @@
                 </div>
 
                 <div class="button">
-                    <button class="primary-btn">Sign up</button>
+                    <button id="btn-register" class="primary-btn">Sign up</button>
                 </div>
             </div>
 
@@ -86,6 +86,22 @@
         </div>
 
     </main>
+
+    <div class="register">
+        <div class="close">
+            <i class="fas fa-times"></i>
+        </div>
+
+        <h2 class="register-title">Registrar-se</h2>
+        <p class="register-description">Um e-mail será enviado para você para continuarmos com seu cadastro.</p>
+        <form method="post">
+            <div class="register-email">
+                <input type="email" id="email" required="" placeholder="Email">
+                <i class="far fa-envelope"></i>
+            </div>
+            <button type="submit">Enviar <i class="fas fa-arrow-right"></i></button>
+        </form>
+    </div>
 
     <footer class="footer">
         <div class="copy">

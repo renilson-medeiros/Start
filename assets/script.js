@@ -24,6 +24,24 @@ document.querySelectorAll(".nav-link").forEach(n => n.addEventListener("click", 
   navNavbar.classList.remove("active");
 }))
 
+let register = document.querySelector('.register');
+
+document.getElementById('register').onclick = () => {
+  register.classList.toggle('active');
+}
+
+document.getElementById('btn-register').onclick = () => {
+  register.classList.toggle('active');
+}
+
+document.querySelector('.close').onclick = () => {
+  register.classList.remove('active');
+}
+
+window.onscroll = () => {
+  register.classList.remove('active');
+}
+
 
 
     // Desenvolvido por Renilson Medeiros [Malcoon] - Dezembro 2021
