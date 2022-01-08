@@ -3,6 +3,8 @@ Página de acesso aos cursos e conteúdos para professores de alunos com opção
 
 [Livre Preview](https://malcoon.github.io/Start/)
 
+![](https://i.imgur.com/ex1vLgZ.png)
+
 ### Tecnologias usadas
 * HTML
 * CSS
