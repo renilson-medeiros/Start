@@ -532,6 +532,12 @@ input:-moz-placeholder, textarea:-moz-placeholder {
     .header {
         padding: 0 15px;
     }
+
+    .register {
+        top: 70px;
+        right: 13px;
+        max-width: 400px;
+    }
 }
 
 @media only screen and (max-width: 375px) {
