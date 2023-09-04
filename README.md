@@ -3,7 +3,7 @@ Página de acesso aos cursos e conteúdos para professores de alunos com opção
 
 [Live Preview](https://malcoon.github.io/Start/)
 
-![](assets/imgs/preview.png)
+<img src="assets/imgs/preview.png">
 
 ### Tecnologias usadas
 * HTML
